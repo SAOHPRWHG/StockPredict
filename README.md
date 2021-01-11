@@ -5,7 +5,7 @@ This is a Data Mining Course Final Project.
 
 以上证50ETF为例：
 
-![2021-1-11](https://github.com/SAOHPRWHG/StockPredict/blob/main/fig/2021-1-11.png)
+
 
 ## 安装与使用
 
