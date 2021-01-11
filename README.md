@@ -64,6 +64,8 @@ pip install TA_Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 python3 StockPredict.py
 ```
 
-待运行完毕即可获得预测结果；
+待运行完毕即可获得预测结果：
+
+![2021-1-11](https://github.com/SAOHPRWHG/StockPredict/blob/main/fig/2021-1-11.png)
 
 predict.png为较长时间段的拟合曲线。
