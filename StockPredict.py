@@ -16,13 +16,12 @@ import talib
 from jqdatasdk import *
 from jqdatasdk import finance#获取外盘数据
 import datetime 
-import pandas as pd
 import dateutil
 
 GLOBALTIME=datetime.datetime.now().strftime('%Y-%m-%d')#计算出当前时间
 
 auth('13633411298', 'Jk12345678')
-df = get_price('000016.XSHG', start_date='2017-01-01', end_date=GLOBALTIME, 
+df = get_price('000016.XSHG', start_date='2020-01-01', end_date=GLOBALTIME, 
                frequency='daily',
                #frequency='minute',
                fields=['open', 'close', 'high', 'low', 'volume', 'pre_close'])
@@ -64,14 +63,14 @@ data=data[['open', 'high', 'close', 'low', 'vol', 'pct_chg','slowk','BBANDS_uppe
 data.head(10)
 
 Alldata=data.shape[0]
-print("数据总量:",Alldata)
+#print("数据总量:",Alldata)
 first_length=int(Alldata*0.8)
-print("训练数据:",first_length)
+#print("训练数据:",first_length)
 second_length=int(Alldata*0.2)
-print("测试数据:",second_length)
+#print("测试数据:",second_length)
 
 # 训练时间长度
-time_stamp = 1
+time_stamp = 2
 
 train = data[0:first_length + time_stamp]
 valid = data[first_length - time_stamp:]
@@ -140,8 +139,7 @@ for i in range(total_count):
         result.append(1)
     else:
         result.append(0)
-        
-print(result[-8:0])
+    
 
 print("当前时间：", GLOBALTIME)
 print("收盘价预测结果：",predict[-1] )
