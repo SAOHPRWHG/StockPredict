@@ -1,4 +1,4 @@
 # StockPredict
 This is a Data Mining Course Final Project.
 
-![image-20210111140021906](C:\Users\Augus\AppData\Roaming\Typora\typora-user-images\image-20210111140021906.png)
+![2021-1-11](C:\Users\Augus\Desktop\数据挖掘\期末大作业\StockPredict\fig\2021-1-11.png)
