@@ -7,6 +7,8 @@ This is a Data Mining Course Final Project.
 
 ![2021-1-11](https://github.com/SAOHPRWHG/StockPredict/blob/main/fig/2021-1-11.png)
 
+![2021-1-12](https://github.com/SAOHPRWHG/StockPredict/blob/main/fig/2021-1-12.png)
+
 ## 安装
 
 预测模型依赖如下库文件：
